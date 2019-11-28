@@ -1,1 +1,3 @@
 #!/bin/bash
+
+#branche ip

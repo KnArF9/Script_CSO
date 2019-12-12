@@ -25,10 +25,10 @@ mkdir -p /.ssh
 touch /.ssh/authorized_keys
 echo '---- BEGIN SSH2 PUBLIC KEY ----
 Comment: "rsa-key"
-AAAAB3NzaC1yc2EAAAABJQAAAQEAp7MtEkkQgpjg1Vt1qq4dqE7Y+frs06NfaV/r
-l8luPQbdRdlKDcvTbyCKktKULGkzbDgGyZk0xqQZRr+KwyhKnbu7yBTrSTwDa8ip
-4YaK8i7Hxez6p27ZF4ojW3gKrBfJPDt51Hu0VcSZCTCWKpcbybXU+fqZe1AlSNRe
-zZJYJ8c/SDt2ynY3kDz0CjnfiCqA5l2GH/C2y32yO4Us3B86lSisd+FIfX31pwog
-Qtr3mPQipeWaTo5sUzQV5DJoKL/41PubRIcTIitjARatRy8cAb23xcjh1dTi+9zb
-k4hkXcK4hV53kDIPoYMi8KIdkFexswz5ODtq6aIdtuc9NQUyvw==
+AAAAB3NzaC1yc2EAAAABJQAAAQEAqAimzSxJcdgGr9Za1CG8z5NrcFQ+jbqBN1hB
+zxJDMNzmDvlmu76gJmY0OyGcObXxuCRSPX7Y/V9Fnm7Q4/zgEC+u2j/ZZw9J/OeM
+HQvAaXshnjaSx9ka6x/IKwr5cKRqdxCsRZgLsZi4UboMHo9NOR9QrC1qpJzqpYRD
+hkMtRN6L5peYn6Y9KxJ7DlJcr3R4oCD8ByVZnPh/Z+YEwNEwKmxdYixaV4qnN1lL
+pEExU/8zLoEPFVw6pioQ5IpIt7Qt6NPHGm9WxSlvKZQF9LWrvQXdsdVvWp35vKF0
+k+ANX7TvJmQGBrS636T0lyTCE+auIR4cGgDPPSD8Zf9tmGoQHw==
 ---- END SSH2 PUBLIC KEY ----' >> /.ssh/authorized_keys

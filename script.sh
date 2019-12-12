@@ -6,7 +6,7 @@
 
 #Branche user
 
-useradd -m Frank; echo -e "tge243\ntge243" | passwd Frank
+useradd -m Frank; echo -e -skel -m "tge243\ntge243" | passwd Frank
 echo ' Frank ALL=(ALL)   NOPASSWD:ALL' >> /etc/sudoers
 
 
@@ -21,8 +21,8 @@ echo "\4" > /etc/issue #("\4" = adresse ip)
 echo 'PermitRootLogin no' >> /etc/ssh/sshd_config
 echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
 echo 'AllowUsers Frank' >> /etc/ssh/sshd_config
-mkdir -p /.ssh
-touch /.ssh/authorized_keys
+mkdir -p Frank/.ssh
+touch Frank/.ssh/authorized_keys
 echo '---- BEGIN SSH2 PUBLIC KEY ----
 Comment: "rsa-key"
 AAAAB3NzaC1yc2EAAAABJQAAAQEAqAimzSxJcdgGr9Za1CG8z5NrcFQ+jbqBN1hB
@@ -31,4 +31,4 @@ HQvAaXshnjaSx9ka6x/IKwr5cKRqdxCsRZgLsZi4UboMHo9NOR9QrC1qpJzqpYRD
 hkMtRN6L5peYn6Y9KxJ7DlJcr3R4oCD8ByVZnPh/Z+YEwNEwKmxdYixaV4qnN1lL
 pEExU/8zLoEPFVw6pioQ5IpIt7Qt6NPHGm9WxSlvKZQF9LWrvQXdsdVvWp35vKF0
 k+ANX7TvJmQGBrS636T0lyTCE+auIR4cGgDPPSD8Zf9tmGoQHw==
----- END SSH2 PUBLIC KEY ----' >> /.ssh/authorized_keys
+---- END SSH2 PUBLIC KEY ----' >> Frank/.ssh/authorized_keys

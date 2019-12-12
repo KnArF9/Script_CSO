@@ -23,4 +23,12 @@ echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
 echo 'AllowUsers Frank' >> /etc/ssh/sshd_config
 mkdir -p /.ssh
 touch /.ssh/authorized_keys
-echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwPoWFD2Fjm1dvTnNjGQUYPFt0uxhwYocLFw6kP8WQuQblS/p3ApophtUIzEBdxFGpvs5Y7SDvlib7/qaSNaMh8i60JOa86m+QkAP5vf26rPYVETNXtWoARt8scmGp/svoJpVWhQc2CFCI5/cNEJCZaMVvhSaFXum2P5EB/ulfEsR3Z9JXwerJ+cGkf+QEZMkIBW64EUl4HcYJ2qdqyoiu2/b6Ag2khVrn/k5Div2MQDy3OFfmK5c8bQPA1rHAk9gZ+szs3pD2pV4iy6LrL/6T1rB+XRItGabMGxNlGoo0b4BdVzDGEpJ/8mS4kBbt2ftes/K0mS08u+Kidvb5J+bf farch@XPS15-DE-FRANK' >> /.ssh/authorized_keys
+echo '---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "rsa-key"
+AAAAB3NzaC1yc2EAAAABJQAAAQEAp7MtEkkQgpjg1Vt1qq4dqE7Y+frs06NfaV/r
+l8luPQbdRdlKDcvTbyCKktKULGkzbDgGyZk0xqQZRr+KwyhKnbu7yBTrSTwDa8ip
+4YaK8i7Hxez6p27ZF4ojW3gKrBfJPDt51Hu0VcSZCTCWKpcbybXU+fqZe1AlSNRe
+zZJYJ8c/SDt2ynY3kDz0CjnfiCqA5l2GH/C2y32yO4Us3B86lSisd+FIfX31pwog
+Qtr3mPQipeWaTo5sUzQV5DJoKL/41PubRIcTIitjARatRy8cAb23xcjh1dTi+9zb
+k4hkXcK4hV53kDIPoYMi8KIdkFexswz5ODtq6aIdtuc9NQUyvw==
+---- END SSH2 PUBLIC KEY ----' >> /.ssh/authorized_keys

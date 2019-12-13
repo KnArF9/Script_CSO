@@ -23,20 +23,5 @@ echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
 echo 'AllowUsers Frank' >> /etc/ssh/sshd_config
 mkdir  /home/Frank/.ssh
 touch /home/Frank/.ssh/authorized_keys
-echo "---- BEGIN SSH2 PUBLIC KEY ----
-Comment: 'ProjetCSO_rsa-key'
-AAAAB3NzaC1yc2EAAAABJQAAAmYCr89bpFd0IxedSmZVjcxbjAsNP218qwzofhiE
-CKOQWRsRzGTTtq2+WxZqfcTc/lNx397ZA/1XG+mOMAXdG9veXjpWmYKE9Y53ondn
-zcxo+kdS5ERMFSmg7UW9ew+YJP4dvDhAa0pzsng9OxTsp2XJURtJYb7PtQ9Y69wz
-ab5SWruxStuI1NJh16Y/S8W2IvmpiaIKP4qywrYtDYQtvIynMvJKu/Xv//waFKF2
-54jPNxhfytMqbFDRBKlrwMhCTabhCd4lhS3GCAXEnIWB/AC/gEjT7R3rNXIBeg5u
-+PQDiwOKoyDIVdsUlbyQxBwk/obHu+4P4wYoyeuYkCC4MmF6tiBUOxPYmjUA/WC1
-XfAfFnBkbfJkagiT5raAiZCvd+/lfqTRxC8iZuSBLUmSeZl8FS//i8yHZRYYhl8J
-2SwA9LQkiVPDpLAUT1MWHHG6DSCn1SP1GL03qD6DfLYZnWFzkr4h53us8gOYGvb6
-iAy6PGDKijm3o6T2lrGuIqpjvxtV7qahsvoDMqWw1xNd/b3CxV70bLGMCglgVXLk
-rcO2gBjfzdBGKwTA7D/YxGpnmwxfCWrD99Vho4nknRdZTHCha2B6gU5ppsaoOGG/
-A/CqNj22fuOWFgKxKCaYml/yVMiqlDTsZOyDzSCstNX4i6uXQRDNeGu8TIWdt+tb
-bHFo3N9a9tRxnSiZhms82adI38e2YfWIVm5Im3PaTQW8E7Vh/3rdzrHOK7bUhAcW
-4at1RIbZRRxaYnPVclUMMlQl/3uPpU/VaMKx1/s2dWv4s3ZB9QxBary5EM9a3hcf
-sHivWZvcfkzWOw==
----- END SSH2 PUBLIC KEY ----" >> /home/Frank/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3nu1KA4tWw5csG5vvE4ABbl9U9cMpMcdGf4gSw2MT4nFtG3cTjQONOECEhJEbfU6zeHN6Z6kl2ncA0f2X7+6+si0WEZMuzMkKntAbiNh8cHtm7lJNUppvBXA707LnS1nU734VBJB6yw0O6VGkPZL3/2Z4jSeEpsl67URRnWvrkr4Vwecry7HbRtceFIDGCwoJsodX+kJGYjnq6n2rvVMxx7eC1QD+NBj27ICd217Oqu+raS7+Y0cSfXLKY4cyA6b3lPJSA2T6JfabvMjrYC1zdTddb67n7CP3qBDrnFG/bHILaFql3gVYy+Kps4Pmcr4lBxV0ZqRtl3nauV/CwSW/ farch@XPS15-DE-FRANK" >> /home/Frank/.ssh/authorized_keys
+ 

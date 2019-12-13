@@ -23,5 +23,6 @@ echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
 echo 'AllowUsers Frank' >> /etc/ssh/sshd_config
 mkdir  /home/Frank/.ssh
 touch /home/Frank/.ssh/authorized_keys
-echo "AAAAB3NzaC1yc2EAAAADAQABAAABAQC3nu1KA4tWw5csG5vvE4ABbl9U9cMpMcdGf4gSw2MT4nFtG3cTjQONOECEhJEbfU6zeHN6Z6kl2ncA0f2X7+6+si0WEZMuzMkKntAbiNh8cHtm7lJNUppvBXA707LnS1nU734VBJB6yw0O6VGkPZL3/2Z4jSeEpsl67URRnWvrkr4Vwecry7HbRtceFIDGCwoJsodX+kJGYjnq6n2rvVMxx7eC1QD+NBj27ICd217Oqu+raS7+Y0cSfXLKY4cyA6b3lPJSA2T6JfabvMjrYC1zdTddb67n7CP3qBDrnFG/bHILaFql3gVYy+Kps4Pmcr4lBxV0ZqRtl3nauV/CwSW/" >> /home/Frank/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDm1VnAIkhrVTxIEakhaJ0//nu5q/XxNrbifgfipO7jep05Q9HJinxNO5udChfBkXbjP78WBTXRugcu++q84BRARQsTAHdLCBChdjFd2TwaZKJI2MELNdtaN9jPAoufZ39WAh0Dv3VP23jTe008tQ8i3xa0B9wc8ZAccjCwbWxTJEVfpv6FzP6JrU6F6oK+qHWaL+m4IwOIGriJvoytsKonW4nR1GZEApS2BQGEaU33tPqrdigmLlKTQs3Kr+nV1r3B5OCWLDyyZk9WJwtexTl2OFZAkYII/DnWE+wvQlRyvNR0QQJ0hyTBuA60pDk6wShvyr66gLb1I4yBoLRGkQpD farch@XPS15-DE-FRANK
+" >> /home/Frank/.ssh/authorized_keys
  
